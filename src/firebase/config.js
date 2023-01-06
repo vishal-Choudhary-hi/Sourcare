@@ -2,7 +2,7 @@ import firebase from 'firebase/compat/app'
 import 'firebase/compat/auth'
 import 'firebase/compat/firestore'
 import 'firebase/compat/storage'
-
+//Add fire base location
 firebase.initializeApp(firebaseConfig)
 
 const projectFirestore=firebase.firestore()
